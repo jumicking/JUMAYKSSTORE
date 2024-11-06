@@ -109,6 +109,7 @@ public class JUMAYKSSTORE {
                             System.out.println("Payment accepted. Your change is PHP " + change);
                         }
                     } while (payment < total);
+                    main=true;
                     System.out.println("-------------------------------------------------");
                 }
             }
