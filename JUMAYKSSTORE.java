@@ -17,7 +17,7 @@ public class JUMAYKSSTORE {
         while (main == true) {
             System.out.println("Welcome to Jumayks ice cream shop");
             Scanner scan = new Scanner(System.in);
-            System.out.println("Would you like to buy ice cream?");
+            System.out.println("Would you like to buy ice cream? yes/no");
             String response = scan.next();
             main = false;
             boolean check = false;
